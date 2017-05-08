@@ -12,5 +12,6 @@ public class TestMessageDemo {
 		IMessage obj = context.getBean("msg",IMessage.class) ;	// 接收指定的对象，随后按照指定的类型返回
 		System.out.println(obj.getInfo());
 		System.out.println("111111111111") ;
+		System.out.println("222222") ;
 	}
 }
